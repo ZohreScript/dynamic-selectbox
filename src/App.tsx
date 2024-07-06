@@ -9,6 +9,8 @@ const App: React.FC = () => {
     console.log('Selected value:', value);
   };
 
+
+
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
     <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -20,6 +22,7 @@ const App: React.FC = () => {
         </div>
       )}
     </div>
+
   </div>
   );
 };
